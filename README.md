@@ -64,14 +64,9 @@ Threshold optimization was performed using F1-score analysis to determine the mo
 
 ## Results
 
-The trained model achieved approximately:
+The trained model achieved approximately **93% classification accuracy** on the evaluation dataset.
 
-- Accuracy: ~93%
-- Precision: ~93%
-- Recall: ~93%
-- F1-Score: ~93%
-
-The model successfully distinguished siren sounds from non-siren environmental sounds under different recording conditions.
+The model successfully distinguished siren sounds from non-siren environmental sounds under different recording conditions, demonstrating its effectiveness for real-time emergency awareness applications.
 
 ## Technologies Used
 
@@ -86,9 +81,9 @@ The model successfully distinguished siren sounds from non-siren environmental s
 
 ## Deployment
 
-The trained model was deployed as a Flask API and integrated into an ESP32-C3 based emergency notification device.
+The trained model was deployed as a Flask API on Render Cloud Platform and integrated into an ESP32-C3 based emergency notification device.
 
-The device records environmental audio, sends it to the API for classification, and receives siren detection results in real time.
+Audio data captured through the INMP441 digital MEMS microphone and processed by the ESP32-C3 is transmitted to the cloud-hosted API, where the CNN model performs siren/non-siren classification. The prediction result is then returned to the ESP32-C3 device in real time, enabling immediate user feedback through the onboard notification system.
 
 ## Future Improvements
 
@@ -99,6 +94,5 @@ The device records environmental audio, sends it to the API for classification, 
 
 ## Author
 
-Gizem Yalçın
-
-Computer Engineering
+**Gizem Yalçın**  
+Computer Engineer
