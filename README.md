@@ -92,6 +92,28 @@ Audio data captured through the INMP441 digital MEMS microphone and processed by
 - Edge AI deployment and optimization
 - Real-time streaming audio analysis
 
+ ## Visual Results
+
+### CNN Model Architecture
+
+![CNN Model Architecture](images/model_architecture.jpeg)
+
+### System Architecture
+
+![System Architecture](images/system_architecture.jpeg)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.jpeg)
+
+### Training Accuracy
+
+![Training Accuracy](images/accuracy_graph.jpeg)
+
+### Training Loss
+
+![Training Loss](images/loss_graph.jpeg)
+
 ## Author
 
 **Gizem Yalçın**  
