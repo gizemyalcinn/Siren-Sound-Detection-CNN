@@ -13,13 +13,19 @@ The system classifies audio recordings into two categories:
 
 ## Dataset Construction
 
-A custom dataset was created by combining multiple publicly available audio sources:
+A custom siren detection dataset was created by combining multiple publicly available audio sources:
 
 - UrbanSound8K
 - AudioSet
 - Emergency Vehicle Siren Sounds Dataset
 
-Siren and non-siren audio samples were collected, balanced, and prepared for training. Non-siren samples primarily consisted of environmental and traffic sounds.
+After data collection and preprocessing, siren and non-siren samples were balanced to create a robust binary classification dataset. Environmental sounds, traffic noise, and other urban audio events were used as non-siren samples.
+
+Final Dataset:
+
+- Siren Samples: 1,164
+- Non-Siren Samples: 1,164
+- Total Samples: 2,328
 
 ## Audio Preprocessing
 
